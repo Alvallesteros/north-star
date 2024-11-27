@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="title-container">
+            <h1 class="title">Your Career Compass</h1>
+            <p class="subtitle"> Chart your course. </p>
+        </div>
+        <div class="button-container">
+            <a href="/careers/" class="button" id="careers">Careers</a>
+            <a href="/users/" class="button" id="users">Users</a>
+            <a href="/majors/" class="button" id="majors">Majors</a>
+            <a href="/courses/" class="button" id="courses">Courses</a>
+            <a href="/skills/" class="button" id="skills">Skills</a>
+        </div>
+        <div class="background">
+            <div class="grid"></div>
+            <div class="ellipse"></div>
+        </div>
+    </div>
+</body>
+</html>
